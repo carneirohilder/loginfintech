@@ -1,0 +1,30 @@
+body {
+    background-image: url(images/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    margin: auto;
+}
+
+.card-header {
+    background-color: #ffcc00;
+    border-bottom: none;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+
+.btn-primary:hover {
+    background-color: #e6b800;
+    border-color: #e6b800;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.5);
+    outline: none;
+}
